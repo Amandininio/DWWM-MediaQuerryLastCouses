@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset ="utf-8" />
+    <title>Rowing Club T.H.O.R</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!--HEADER ---------------------------     MENU      -->
+    <header>
+      <nav class="menuMobile" id="burgerMobile">
+      </nav>
+
+      <div id=logo><img src="images/JWDesignTHOR LOGO.jpg" alt="Logo Thor rowing club">
+      </div>
+
+      <nav id="menu">
+        <ul>
+          <li>Acceuil</li>
+          <li>Titre 1</li>
+          <li>Contact</li>
+          <li id=rchr>
+            <form action="#" method="post">
+              <input type="search" placeholder="   Rechercher" name="barre de recherche" value="">
+            </form>
+          </li>
+        </ul>
+      </nav>
+
+      <p id="telMobile"  class="menuMobile"><a href="#" ></a></p>
+    </header>
+
+
+
+    <!----------------                    SLIDER  ------->
+    <div id="slider">
+      <video autoplay muted loop id="myVideo">
+        <source src="/images/Josef-gadermaier-Inn-21069.mp4" type="video/mp4">
+      </video>
+    </div>
+
+
+<!--------------------------------------------H1 / ARTICLES -->
+    <h1>Notre Club</h1>
+    <p id="parag"> <strong>Fondé en 1955 </strong>, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+    <section>
+      <div class="tabflex">
+        <article><img src="images/athleteAvironThor.png" alt="Rameur sur le Gave"><p><span class="secTitle">Régates</span><br/>Thomas réalise le meilleur temps.</p> </article>
+        <article><img src="images/ergoThor.png" alt="ergomètre"><p><span class="secTitle">Ergomètre</span><br/>Préparation aux tests physiques</p></article>
+      </div>
+        <div class="tabflex">
+        <article><img src="images/rameurThor.png" alt="Huit de pointe"><p><span class="secTitle">Bateaux long</span><br/>Résultats des championnats bateaux long</p></article>
+        <article><img src="images/EntraineurClubThor.png" alt="Entraineur Thor nautique"><p><span class="secTitle">Actu entraineurs</span><br/>Préparation aux tests physiques</p></article>
+      </div>
+    </section>
+
+
+
+<!-- ---------------------------MAP-->
+    <div class="footflex">
+
+      <div id="map">
+        <h2>Nous trouver</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4351.092565790803!2d-0.3875218697835286!3d43.2932001589752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd564f1fa8f50965%3A0x7f4bf7aa7df501f1!2sPau+Cano%C3%AB+Kayak+Club+Universitaire!5e0!3m2!1sfr!2sfr!4v1555058631790!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+
+<!-- -------------------------------- Formulaire-->
+
+      <div>
+
+
+       <h2>Découvrir notre sport</h2>
+
+        <form action="traitement.php" method="post">
+          <p  class="flexForm">
+          <input type="text" id="prenom" placeholder=" Prénom" maxlength="20" >
+          <input type="text" id="nom" placeholder=" Nom" maxlength="20" >
+          </p>
+          <p class="flexForm">
+          <input type="date" id="birthday" placeholder=" Date de naissance">
+          <input type="text" id="Ville" placeholder=" Ville de naissance" maxlength="20" >
+          </p>
+          <input type="email" id="mail" placeholder=" email" maxlength="12" >
+          <label for="Photo">Selectionne une pĥoto de toi:</label>
+          <input type="file" id="Photo" value="Photo de toi" accept="image/*" >
+          <textarea rows="8" cols="80" placeholder="  Message"></textarea>
+          <input type="submit" value="Envoyer" id="envoie">
+        </form>
+      </div>
+
+    </div>
+    <footer>
+      Amandio DWWM2 04/2019
+    </footer>
+
+
+
+
+
+  </body>
+</html>
